@@ -1,0 +1,13 @@
+.swearing {
+	will-change: transform;
+	animation: yey 1s ease-in-out infinite;
+}
+
+@keyframes yey {
+	from {
+		rotate: 0;
+	}
+	to {
+		rotate: 1turn;
+	}
+}
